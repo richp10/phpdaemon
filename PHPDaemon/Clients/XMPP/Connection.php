@@ -44,7 +44,12 @@ class Connection extends ClientConnection {
 	 * @var string
 	 */
 	public $fulljid;
-	
+
+        /**
+         * @var string
+         */
+        public $jid;
+
 	/**
 	 * @var integer|string Timer ID
 	 */
